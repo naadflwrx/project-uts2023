@@ -34,7 +34,7 @@ $data_produk = $model->tampil();
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                                         <div class="text-center">
                                             <a class="btn btn-outline-dark mt-auto"
-                                                onclick="return confirm('Anda yakin ingin menghapus?')"
+                                                onclick="return confirm('Apakah Anda ingin menghapus Jenis Produk ini?')"
                                                 href="hapus_jenis.php?iddel=<?= $value['id'] ?>">
                                                 <i class="fa-solid fa-trash-can" style="color: #f00;"></i>
                                             </a>

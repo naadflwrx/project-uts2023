@@ -63,7 +63,7 @@ $data_produk = $model->tampil();
                                     <a class="btn btn-outline-dark mt-auto" 
                                         href="index.php?hal=form_produk&idedit=<?= $Value['id'] ?>">
                                         <i class="fa-solid fa-pencil" style="color: #000099"></i></a>
-                                    <a class="btn btn-outline-dark mt-auto" onclick="return confirm('Anda yakin ingin menghapus ??')"
+                                    <a class="btn btn-outline-dark mt-auto" onclick="return confirm('Apakah Anda ingin menghapus Produk ini?')"
                                         href="hapus_produk.php?iddel=<?= $Value['id'] ?>">
                                         <i class="fa-solid fa-trash-can" style="color: #ff0000"></i>
                                     </a>
